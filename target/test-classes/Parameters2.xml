@@ -1,0 +1,13 @@
+   
+   <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CapstoneProject">
+   
+   <parameter name="departure"  value="Paris"/>
+  <parameter name="destination"  value="London"/>
+ <test name="BlazedemoTest4">
+  <classes>
+  
+   <class name="com.qa.blazedemo.testcases.ChooseFlightsTest"></class>
+  </classes>
+ </test>
+ </suite>
