@@ -33,7 +33,7 @@
  <test name="BlazedemoTest5">
   <classes>
   
-   <class name="com.qa.blazedemo.testcases.PurchaseflightPageTest"></class>
+   <class name="com.qa.blazedemo.testcases.ChooseFlightsTest"></class>
   </classes>
  </test>
  </suite>
