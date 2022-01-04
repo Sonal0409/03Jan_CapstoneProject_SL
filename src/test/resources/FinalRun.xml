@@ -30,6 +30,8 @@
   </classes>
  </test>
  
+     <parameter name="departure"  value="Paris"/>
+  <parameter name="destination"  value="London"/>
  <test name="BlazedemoTest5">
   <classes>
   
