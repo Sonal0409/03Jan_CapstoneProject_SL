@@ -1,45 +1,298 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-03T17:37:57 IST" name="CapstoneProject" finished-at="2022-01-03T17:38:09 IST" duration-ms="11428">
+  <suite started-at="2022-01-04T15:11:16 IST" name="CapstoneProject" finished-at="2022-01-04T15:12:12 IST" duration-ms="55994">
     <groups>
     </groups>
-    <test started-at="2022-01-03T17:37:57 IST" name="BlazedemoTest4" finished-at="2022-01-03T17:38:09 IST" duration-ms="11428">
-      <class name="com.qa.blazedemo.testcases.ChooseFlightsTest">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.qa.blazedemo.testcases.ChooseFlightsTest@63a12c68]" started-at="2022-01-03T17:37:57 IST" name="initialization" finished-at="2022-01-03T17:38:01 IST" duration-ms="4026" status="PASS">
+    <test started-at="2022-01-04T15:11:16 IST" name="BlazedemoTest" finished-at="2022-01-04T15:11:32 IST" duration-ms="15950">
+      <class name="com.qa.blazedemo.testcases.RegisterPageTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.qa.blazedemo.testcases.RegisterPageTest@16610890]" started-at="2022-01-04T15:11:16 IST" name="initialization" finished-at="2022-01-04T15:11:22 IST" duration-ms="5995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:com.qa.blazedemo.testcases.ChooseFlightsTest@63a12c68]" started-at="2022-01-03T17:38:01 IST" name="openbrowser" finished-at="2022-01-03T17:38:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.qa.blazedemo.testcases.RegisterPageTest@16610890]" started-at="2022-01-04T15:11:22 IST" name="openBrowser" finished-at="2022-01-04T15:11:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method signature="findflightTest(java.lang.String,java.lang.String)[pri:49, instance:com.qa.blazedemo.testcases.ChooseFlightsTest@63a12c68]" started-at="2022-01-03T17:38:01 IST" name="findflightTest" finished-at="2022-01-03T17:38:05 IST" duration-ms="3599" status="PASS">
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifytitleTest()[pri:49, instance:com.qa.blazedemo.testcases.RegisterPageTest@16610890]" started-at="2022-01-04T15:11:22 IST" name="verifytitleTest" finished-at="2022-01-04T15:11:22 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitleTest -->
+        <test-method signature="clickLinkToRegisterPageTest()[pri:50, instance:com.qa.blazedemo.testcases.RegisterPageTest@16610890]" started-at="2022-01-04T15:11:22 IST" name="clickLinkToRegisterPageTest" finished-at="2022-01-04T15:11:27 IST" duration-ms="5235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLinkToRegisterPageTest -->
+        <test-method signature="verifyRegisterURLTest()[pri:51, instance:com.qa.blazedemo.testcases.RegisterPageTest@16610890]" started-at="2022-01-04T15:11:27 IST" name="verifyRegisterURLTest" finished-at="2022-01-04T15:11:27 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterURLTest -->
+        <test-method signature="RegisterUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:52, instance:com.qa.blazedemo.testcases.RegisterPageTest@16610890]" started-at="2022-01-04T15:11:27 IST" name="RegisterUserTest" finished-at="2022-01-04T15:11:29 IST" duration-ms="1533" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Paris]]>
+                <![CDATA[admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[London]]>
+                <![CDATA[Simplilearn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[appiumtrial@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[admin@123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findflightTest -->
-        <test-method signature="chooseflightTest()[pri:50, instance:com.qa.blazedemo.testcases.ChooseFlightsTest@63a12c68]" started-at="2022-01-03T17:38:05 IST" name="chooseflightTest" finished-at="2022-01-03T17:38:06 IST" duration-ms="584" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseflightTest -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.blazedemo.testcases.ChooseFlightsTest@63a12c68]" started-at="2022-01-03T17:38:06 IST" name="browserClose" finished-at="2022-01-03T17:38:09 IST" duration-ms="3161" status="PASS">
+        </test-method> <!-- RegisterUserTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.blazedemo.testcases.RegisterPageTest@16610890]" started-at="2022-01-04T15:11:29 IST" name="browserClose" finished-at="2022-01-04T15:11:32 IST" duration-ms="3086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- com.qa.blazedemo.testcases.ChooseFlightsTest -->
-    </test> <!-- BlazedemoTest4 -->
+      </class> <!-- com.qa.blazedemo.testcases.RegisterPageTest -->
+    </test> <!-- BlazedemoTest -->
+    <test started-at="2022-01-04T15:11:32 IST" name="BlazedemoTest2" finished-at="2022-01-04T15:11:47 IST" duration-ms="14787">
+      <class name="com.qa.blazedemo.testcases.LoginPageTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.qa.blazedemo.testcases.LoginPageTest@2ea41516]" started-at="2022-01-04T15:11:32 IST" name="initialization" finished-at="2022-01-04T15:11:35 IST" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.qa.blazedemo.testcases.LoginPageTest@2ea41516]" started-at="2022-01-04T15:11:35 IST" name="openBrowser" finished-at="2022-01-04T15:11:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="clickLinkToLoginPageTest()[pri:49, instance:com.qa.blazedemo.testcases.LoginPageTest@2ea41516]" started-at="2022-01-04T15:11:35 IST" name="clickLinkToLoginPageTest" finished-at="2022-01-04T15:11:39 IST" duration-ms="4030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLinkToLoginPageTest -->
+        <test-method signature="verifyLoginURLTest()[pri:50, instance:com.qa.blazedemo.testcases.LoginPageTest@2ea41516]" started-at="2022-01-04T15:11:39 IST" name="verifyLoginURLTest" finished-at="2022-01-04T15:11:39 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginURLTest -->
+        <test-method signature="logindetailsTest(java.lang.String,java.lang.String)[pri:51, instance:com.qa.blazedemo.testcases.LoginPageTest@2ea41516]" started-at="2022-01-04T15:11:39 IST" name="logindetailsTest" finished-at="2022-01-04T15:11:44 IST" duration-ms="4517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[appiumtrial@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindetailsTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.blazedemo.testcases.LoginPageTest@2ea41516]" started-at="2022-01-04T15:11:44 IST" name="browserClose" finished-at="2022-01-04T15:11:47 IST" duration-ms="3181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.qa.blazedemo.testcases.LoginPageTest -->
+    </test> <!-- BlazedemoTest2 -->
+    <test started-at="2022-01-04T15:11:47 IST" name="BlazedemoTest5" finished-at="2022-01-04T15:12:12 IST" duration-ms="25165">
+      <class name="com.qa.blazedemo.testcases.PurchaseflightPageTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.qa.blazedemo.testcases.PurchaseflightPageTest@4b8ee4de]" started-at="2022-01-04T15:11:47 IST" name="initialization" finished-at="2022-01-04T15:11:50 IST" duration-ms="3057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:com.qa.blazedemo.testcases.PurchaseflightPageTest@4b8ee4de]" started-at="2022-01-04T15:11:50 IST" name="openbrowser" finished-at="2022-01-04T15:11:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="ChooseflightTest()[pri:0, instance:com.qa.blazedemo.testcases.PurchaseflightPageTest@4b8ee4de]" started-at="2022-01-04T15:11:51 IST" name="ChooseflightTest" finished-at="2022-01-04T15:11:59 IST" duration-ms="7413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseflightTest -->
+        <test-method signature="purchaseFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.qa.blazedemo.testcases.PurchaseflightPageTest@4b8ee4de]" started-at="2022-01-04T15:11:59 IST" name="purchaseFlight" data-provider="testdata" finished-at="2022-01-04T15:12:00 IST" duration-ms="1463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123 Main st]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anytown]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[state]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.23456789123456E15]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2023.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[John Smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseFlight -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.blazedemo.testcases.PurchaseflightPageTest@4b8ee4de]" started-at="2022-01-04T15:12:00 IST" name="closeBrowser" finished-at="2022-01-04T15:12:00 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="ChooseflightTest()[pri:0, instance:com.qa.blazedemo.testcases.PurchaseflightPageTest@4b8ee4de]" started-at="2022-01-04T15:12:00 IST" name="ChooseflightTest" finished-at="2022-01-04T15:12:07 IST" duration-ms="6704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseflightTest -->
+        <test-method signature="purchaseFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.qa.blazedemo.testcases.PurchaseflightPageTest@4b8ee4de]" started-at="2022-01-04T15:12:07 IST" name="purchaseFlight" data-provider="testdata" finished-at="2022-01-04T15:12:09 IST" duration-ms="1510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[124 Main st]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anytown]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[state]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.23456789123456E15]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2023.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[jack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseFlight -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.blazedemo.testcases.PurchaseflightPageTest@4b8ee4de]" started-at="2022-01-04T15:12:09 IST" name="closeBrowser" finished-at="2022-01-04T15:12:09 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.blazedemo.testcases.PurchaseflightPageTest@4b8ee4de]" started-at="2022-01-04T15:12:09 IST" name="browserClose" finished-at="2022-01-04T15:12:12 IST" duration-ms="3033" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-DOBLN3AU', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sonal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3abb3730b1e8705908ca21df4dc5b82a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-DOBLN3AU', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\sonal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3abb3730b1e8705908ca21df4dc5b82a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.qa.blazedemo.base.TestBase.browserClose(TestBase.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.qa.blazedemo.testcases.PurchaseflightPageTest -->
+    </test> <!-- BlazedemoTest5 -->
   </suite> <!-- CapstoneProject -->
 </testng-results>

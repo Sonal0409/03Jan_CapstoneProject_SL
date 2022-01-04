@@ -1,0 +1,10 @@
+   <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CapstoneProject">
+
+ <test name="BlazedemoTest5">
+  <classes>
+  
+   <class name="com.qa.blazedemo.testcases.PurchaseflightPageTest"></class>
+  </classes>
+ </test>
+ </suite>

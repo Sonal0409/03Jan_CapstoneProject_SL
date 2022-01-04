@@ -26,5 +26,23 @@ public class FindFlightPage extends TestBase {
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 	}
+	
+	public void findFlightnoParam() throws InterruptedException
+	{
+		WebElement e1= driver.findElement(By.xpath("//select[@name='fromPort']"));
+		Select dd = new Select(e1);
+		
+		dd.selectByVisibleText("Paris");
+		
+		Thread.sleep(2000);
+		
+		WebElement e2 = driver.findElement(By.xpath("//select[@name='toPort']"));
+		
+		Select dd1 = new Select(e2);
+		dd1.selectByVisibleText("London");
+		
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		
+	}
 
 }
